@@ -1,0 +1,34 @@
+{
+    "name": "tutorials-fullstack-backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node index.js",
+      "dev": "nodemon --exec babel-node index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/TestAccountZaVjezbe/tutorials-fullstack-backend.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/TestAccountZaVjezbe/tutorials-fullstack-backend/issues"
+    },
+    "homepage": "https://github.com/TestAccountZaVjezbe/tutorials-fullstack-backend#readme",
+    "dependencies": {
+      "@babel/core": "^7.18.9",
+      "@babel/node": "^7.18.9",
+      "@babel/polyfill": "^7.12.1",
+      "@babel/preset-env": "^7.18.9",
+      "@babel/register": "^7.18.9",
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.1",
+      "express": "^4.18.1",
+      "mongoose": "^6.5.0",
+      "nodemon": "^2.0.19"
+    }
+  }
